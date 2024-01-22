@@ -1,0 +1,4 @@
+torch ==2.0.1+cu117
+transformers ==4.36.2
+gradio ==4.7.1
+PyPDF2 ==3.0.1

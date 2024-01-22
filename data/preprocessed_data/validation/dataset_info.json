@@ -1,0 +1,48 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "parquet",
+  "dataset_size": 193833,
+  "description": "",
+  "download_checksums": {
+    "F:/NLP-Practices/NER-For-Resume-Entity-Ectraction/./data/prepered_data/test.parquet": {
+      "num_bytes": 55268,
+      "checksum": null
+    }
+  },
+  "download_size": 55268,
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "ner-tags": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 249101,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 193833,
+      "num_examples": 22,
+      "dataset_name": "parquet"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
